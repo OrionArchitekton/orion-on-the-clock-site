@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.danmercede.com/works/orion-on-the-clock/" />
+  <title>orion-on-the-clock: a daily YouTube Short of your AI agents' work</title>
+  <meta name="description"
+    content="orion-on-the-clock is an MIT-licensed pipeline that turns yesterday's Claude Code and Codex sessions and merged PRs into a daily YouTube Short, behind a fail-closed gate, uploading privately unless you flip a switch." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="orion-on-the-clock" />
+  <meta property="og:title" content="orion-on-the-clock: a daily YouTube Short of your AI agents' work" />
+  <meta property="og:description"
+    content="An MIT-licensed pipeline that recaps what your AI coding agents did yesterday as a daily YouTube Short: a fail-closed gate, your cloned voice, private uploads by default." />
+  <meta property="og:url" content="https://www.danmercede.com/works/orion-on-the-clock/" />
+  <meta property="og:image" content="https://www.danmercede.com/works/orion-on-the-clock/og-card.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="orion-on-the-clock: yesterday's AI coding agent work as a daily YouTube Short" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@danmercede" />
+  <meta name="twitter:creator" content="@danmercede" />
+  <meta name="twitter:title" content="orion-on-the-clock: a daily YouTube Short of your AI agents' work" />
+  <meta name="twitter:description"
+    content="An MIT-licensed pipeline that recaps what your AI coding agents did yesterday as a daily YouTube Short: a fail-closed gate, your cloned voice, private uploads by default." />
+  <meta name="twitter:image" content="https://www.danmercede.com/works/orion-on-the-clock/og-card.png" />
+  <meta name="twitter:image:alt" content="orion-on-the-clock: yesterday's AI coding agent work as a daily YouTube Short" />
+
+  <!-- Brand favicons (Dan Mercede logo pack, DM mark) -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Structured data: SoftwareSourceCode + SoftwareApplication for the tool,
+       backlinking author/publisher to the hub Person (danmercede.com/#person).
+       Static so crawlers see it without executing JS. -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareSourceCode",
+          "@id": "https://www.danmercede.com/works/orion-on-the-clock/#software",
+          "name": "orion-on-the-clock",
+          "description": "An automated daily YouTube Short that recaps what your AI coding agents did yesterday: collect, write, gate, voice, render, publish and notify, behind a fail-closed gate, with private uploads by default.",
+          "url": "https://www.danmercede.com/works/orion-on-the-clock/",
+          "codeRepository": "https://github.com/OrionArchitekton/orion-on-the-clock-oss",
+          "programmingLanguage": "Python",
+          "runtimePlatform": "Python 3.11+",
+          "license": "https://opensource.org/licenses/MIT",
+          "author": { "@id": "https://www.danmercede.com/#person" },
+          "maintainer": { "@id": "https://www.danmercede.com/#person" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://www.danmercede.com/works/orion-on-the-clock/#application",
+          "name": "orion-on-the-clock",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Linux (the text half also runs on macOS)",
+          "description": "A pipeline that turns one day of Claude Code and Codex session logs and merged PRs into a gated, voiced, rendered 9:16 YouTube Short, uploaded through YouTube Studio as a private video unless you switch on public uploads.",
+          "url": "https://www.danmercede.com/works/orion-on-the-clock/",
+          "softwareVersion": "0.1.0",
+          "isAccessibleForFree": true,
+          "license": "https://opensource.org/licenses/MIT",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+          "author": { "@id": "https://www.danmercede.com/#person" },
+          "publisher": { "@id": "https://www.danmercede.com/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.danmercede.com/#person",
+          "name": "Dan Mercede",
+          "url": "https://www.danmercede.com"
+        }
+      ]
+    }
+  </script>
+
+  <!-- Fonts: Inter for UI, JetBrains Mono for code/terminal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind is bundled at build time (compiled stylesheet emitted by Vite);
+       no render-blocking CDN JIT compiler. Base/print styles live in index.css. -->
+</head>
+
+<body class="bg-white text-neutral-900 antialiased">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

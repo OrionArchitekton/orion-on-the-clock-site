@@ -1,0 +1,20 @@
+{
+  "name": "orion-on-the-clock",
+  "short_name": "orion-on-the-clock",
+  "start_url": "/works/orion-on-the-clock/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/works/orion-on-the-clock/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/works/orion-on-the-clock/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
