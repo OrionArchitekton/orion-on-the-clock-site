@@ -28,8 +28,8 @@ export const PRODUCT_DATA: ProductData = {
 
   episode: {
     heading: 'Watch an episode',
-    youtubeId: '',
-    title: "an episode of Dan's Agents on the Clock",
+    youtubeId: 'zJfCmWxGBDM',
+    title: 'My agents read a week of my Claude Code usage',
     disclosure:
       "A real episode of Dan's Agents on the Clock, made from one day of the author's agent work by the working pipeline that orion-on-the-clock is a sanitized copy of. The host voice is an AI clone of the author, made with his consent; an agent's quote is read in that agent's own voice, never a person's.",
     transcript: '',

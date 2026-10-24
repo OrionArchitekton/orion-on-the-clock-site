@@ -42,6 +42,7 @@ media file ships with this site and no demo is rendered for it.
 | Date | Video id | Reason |
 | --- | --- | --- |
 | 2026-10-23 | (empty) | Page prepared before the first public episode. |
+| 2026-10-24 | zJfCmWxGBDM | The first episode the pipeline published by itself ("My agents read a week of my Claude Code usage"); public and playing (oEmbed checked). |
 
 Creative and listening acceptance of an episode remains with Dan.
 
